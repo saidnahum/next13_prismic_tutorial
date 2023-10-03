@@ -2,8 +2,8 @@ import { Content } from "@prismicio/client";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { JSXMapSerializer, PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import Bounded from "@/components/Bounded";
-import Button from "@/components/Button";
 import Heading from "@/components/Heading";
+import Button from "@/components/Button";
 
 const components: JSXMapSerializer = {
   heading1: ({ children }) => (
